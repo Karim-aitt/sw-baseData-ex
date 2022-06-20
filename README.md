@@ -1,4 +1,4 @@
-# ENDPOINTS ---- IMPORTANTE ---------
+# ENDPOINTS ------- ⚠️ IMPORTANTE ⚠️ ---------
 - VER TODOS LOS PERSONAJES DE SW  GET  /people
 - VER TODOS LOS PLANETAS DE SW  GET  /planets
 - VER TODOS LOS USUARIOS  GET  /users
