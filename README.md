@@ -1,23 +1,23 @@
 # ENDPOINTS ---- IMPORTANTE ---------
-# VER TODOS LOS PERSONAJES DE SW  GET  /people
-# VER TODOS LOS PLANETAS DE SW  GET  /planets
-# VER TODOS LOS USUARIOS  GET  /users
-# VER A UN SOLO PERSONAJE DE SW  GET /people/id
-# VER A UN SOLO PLANETA DE SW  GET /planets/id
+- VER TODOS LOS PERSONAJES DE SW  GET  /people
+- VER TODOS LOS PLANETAS DE SW  GET  /planets
+- VER TODOS LOS USUARIOS  GET  /users
+- VER A UN SOLO PERSONAJE DE SW  GET /people/id
+- VER A UN SOLO PLANETA DE SW  GET /planets/id
 
-# AÑADIR PERSONAJES   POST  /people
-# AÑADIR PERSONAJES   POST   /planets
-# AÑADIR USUARIOS     POST   /user     sin S al final
+- AÑADIR PERSONAJES   POST  /people
+- AÑADIR PERSONAJES   POST   /planets
+- AÑADIR USUARIOS     POST   /user     sin S al final
 
-# VER PERSONAJES FAVORITOS DE UN USER  GET  /user/id/favorites/people
-# VER PLANETAS FAVORITOS DE UN USER   GET /user/id/favorites/planets
-# VER TODOS LOS FAVORITOS DE UN USER  GET /user/id/favorites
+- VER PERSONAJES FAVORITOS DE UN USER  GET  /user/id/favorites/people
+- VER PLANETAS FAVORITOS DE UN USER   GET /user/id/favorites/planets
+- VER TODOS LOS FAVORITOS DE UN USER  GET /user/id/favorites
 
-# AÑADIR PERSONAJE FAVORITO A UN USUARIO POST  /user/id/favorites/people/id_del_personaje
-# AÑADIR PLANETA FAVORITO A UN USUARIO  POST /user/id/favorites/planets/id_del_planeta
+- AÑADIR PERSONAJE FAVORITO A UN USUARIO POST  /user/id/favorites/people/id_del_personaje
+- AÑADIR PLANETA FAVORITO A UN USUARIO  POST /user/id/favorites/planets/id_del_planeta
 
-# BORRAR UN PERSONAJE FAVORITO DE UN USUARIO DELETE /user/id/favorites/people/id_del_personaje
-# BORRAR UN PLANETA FAVORITO DE UN USUARIO DELETE /user/id/favorites/people/id_del_personaje
+- BORRAR UN PERSONAJE FAVORITO DE UN USUARIO DELETE /user/id/favorites/people/id_del_personaje
+- BORRAR UN PLANETA FAVORITO DE UN USUARIO DELETE /user/id/favorites/people/id_del_personaje
 
 
 # Flask Boilerplate for Profesional Development
